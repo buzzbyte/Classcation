@@ -1,4 +1,4 @@
-Classcation-Framework
+Classcation
 =====================
 
-This is just a framework for a web software. (Work in progress!)
+A web software that has the most nessesary tools for education. (Work in progress!)
