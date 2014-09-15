@@ -5,8 +5,12 @@
 	 * loadmodules.php
 	 * Loads module classes into Classcation.
 	 */
+
+	echo "It works!";
 	
 	if(!defined('CLASSCATION')) die("Failed.");
+
+	echo "It still works!"
 
 	define('ABSPATH', dirname(__FILE__)."/");
 	define('PLUGINS_DIR', ABSPATH.'plugins/');
