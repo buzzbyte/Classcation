@@ -1,10 +1,15 @@
 <?php
 	define('CLASSCATION', true); // ONLY USED FOR SINGLE-FILE TESTING!!
+
+	/**
+	 * loadmodules.php
+	 * Loads module classes into Classcation.
+	 */
 	
 	if(!defined('CLASSCATION')) die();
 
 	define('ABSPATH', dirname(__FILE__)."/");
-	define('PLUGINS_DIR', ABSPATH.'plugins/')
+	define('PLUGINS_DIR', ABSPATH.'plugins/');
 
 	if(!file_exists(PLUGINS_DIR)) mkdir(PLUGINS_DIR);
 
