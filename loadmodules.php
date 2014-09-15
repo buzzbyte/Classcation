@@ -6,7 +6,7 @@
 	 * Loads module classes into Classcation.
 	 */
 	
-	if(!defined('CLASSCATION')) die();
+	if(!defined('CLASSCATION')) die("Failed.");
 
 	define('ABSPATH', dirname(__FILE__)."/");
 	define('PLUGINS_DIR', ABSPATH.'plugins/');
