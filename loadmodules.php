@@ -18,7 +18,7 @@
 	foreach ($modlst as $plugin) {
 		if($plugin == ".") continue;
 		if($plugin == "..") continue;
-		echo "Loading " . $plugin . "... <b />";
+		echo "Loading " . $plugin . "... <br />";
 		if (mod_main_exists($plugin)) {
 			$plugin_file = $plugin;
 			include_once(get_mod_main_path($plugin));
