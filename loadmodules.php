@@ -20,7 +20,11 @@
 		if($plugin == "..") continue;
 		echo "Loading " . $plugin . "...";
 		if (mod_main_exists($plugin)) {
-			//
+			$plugin_file = $plugin;
+			include_once(get_mod_main_path($plugin));
+			$plugin = $plugin_file;
+		} else {
+			die("Error: No plugin entry.");
 		}
 
 	}
