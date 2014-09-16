@@ -24,7 +24,8 @@
 			include_once(get_mod_main_path($plugin));
 			$plugin = $plugin_file;
 		} else {
-			die("Error: No plugin entry.");
+			echo "Error: No plugin entry.";
+			continue;
 		}
 
 	}
